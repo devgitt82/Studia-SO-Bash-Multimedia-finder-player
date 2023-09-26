@@ -8,7 +8,7 @@ Do komunikacji z użytkownikiem wykorzystywany jest interfejs semigraficzny. Ła
 - zapyta użytkownika o podanie nazwy pliku lub jej części
 - poprosi użytkownika o podanie ścieżki początkowej wyszukiwania (przeszukanie będzie się odbywać w głąb podanej ścieżki). Pozostawienie pustego pola będzie oznaczało przeszukanie całego drzewa plików od korzenia w głąb.
 
-Wyniki zostaną wyświetlone w postaci przewijanego menu. Użytkownik wybierze, interesujący go plik i wybierając opcje OK spowoduje uruchomienie odpowiedniego programu, który wyświetli/odtworzy plik multimedialny wybrany przez użytkownika. Wybranie opcji Anuluj w dowolnym momencie spowoduje zakończenie wykonywania skryptu.
+Wyniki zostaną wyświetlone w postaci przewijanego menu. Użytkownik wybierze, interesujący go plik i wybierając opcje OK spowoduje uruchomienie odpowiedniego programu, który wyświetli lub odtworzy plik multimedialny wybrany przez użytkownika. Wybranie opcji Anuluj w dowolnym momencie spowoduje zakończenie wykonywania skryptu.
 
 Program może być uruchomiony z odpowiednimi opcjami:
 - -h	powoduje wyświetlenie pomocy – podstawowych informacji o skrypcie
