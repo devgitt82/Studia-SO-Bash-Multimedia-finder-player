@@ -1,0 +1,54 @@
+.ig
+Podrecznik napisany bazujac na stronie http://www.schweikhardt.net/man_page_howto.html
+..
+.TH mffap "1" "Michal Scibisz" "CZERWIEC 2020" "mffap 1.0.3"
+.SH NAZWA
+mffap (Multimedia Files Finder and Player) \- wyszukiwarka i odtwazacz plikow multimedialnych.
+.SH SKLADNIA
+.B mffap
+.R [ \fIopcja \fP]... [ \fIparametr\fP ]...
+.SH OPIS
+Program \fBmffap\fP sluzy do wyszukania i odtworzenia plikow multimedialnych znajdujcych sie na twoim komputerze. Uzytkownik ma mozliwosc wyboru wyszukania plikow graficznych, video oraz dzwiekowych. Do komunikacji z uzytkownikiem program wykorzystuje interfejs semigraficzny. Po uruchomieniu programu z opcja, w poszczegolnych polach interfejsu pojawiaja sie argumenty podane w konsoli przez uzytkownika. Program wyszuka plikow zawierajacych w nazwie podany ciag znakow (jesli uzytkownik zostwi puste pole to program wyszuka wszystkie pliki o wybranych rozszerzeniach) poczynajac od korzenia (domyslne ustawienie) lub rozpoczynajac od podanej/wybranej sciezki i odnajdzie pliki multimedialne w formatach:
+.PP
+.RB	"graficznych - " "jpg, gif, ico, bmp, jpeg, png, tiff"
+.PP
+.RB	"video - " "avi, mpg, mpeg, mp4, mkv, wmv, wmf"
+.PP
+.RB	"dzwiekowych - " "mp3, wav, mpg, mpeg, mp2, mp4, wma"
+.PP
+Polecenie \fBmffap\fP uruchamiane jest w konsoli i wykorzystuje okna dialogowe.
+.SH OPCJE
+Poniewaz \fBmffap\fP wykorzystuje interfejs semigraficzny, podane opcje powoduja zmiane domyslnych parametrow wyswietlanych w poszczegolnych oknach dialogowych
+.PP
+Polecenie \fBmffap\fP wywolywane bez opcji domyslnie rozpoczyna wyswietlanie okien dialogowych bez okreslonego ciagu znakow skladajacego sie nazwe szukanych plikow. Jako domyslna sciezke wyszukania program przyjmuje katalog glowny \fB/ \fPWybranie ponizszych opcji moze spowodowac zmiane tych ustawien.
+.SS Informacyjne
+.TP
+.BR \-h "
+Wyswietla pomoc.
+.TP
+.BR \-v "
+Wyswietla informacje o numerze wersji \fBmffap\fP
+.TP
+.BR \-a "
+Wyswietla informacje o autorze \fBmffap\fP
+.SS Glowne
+.TP
+.BR \-p " <sciezka> 
+Podaj <sciezka>, od ktorej rozpocznie sie wyszukiwanie 
+.TP
+.BR \-n " <nazwa>
+Podaj <nazwa> \- ciag znakow, jaki powinnny zawierac wyszukiwane pliki
+.SH PLIKI
+.PP
+Przed skorzystaniem z programu nalezy upewnic sie, czy zostaly zainstalowane programy \fBeog\fP, \fBdialog\fP oraz \fBvlc\fP (wraz z najnowszym zestawem kodekow). Program tworzy i korzysta z plikow tymczasowych, ktore umieszczane sa w katalogu \fB/tmp. 
+.SH DIAGNOSTYKA
+W celach diagnostycznych nalezy zmodyfikowac program, wymazujac z kodu wszechobecne <clear>.
+.SH "ZGLASZANIE BLEDOW"
+Bledy prosze zglaszac do <s178201@poczta.pg.edu.pl>.
+.SH AUTOR
+Napisane przez Michal Scibisz.
+.SH ZOBACZ TAKZE
+.BR dialog
+.PP
+Zalecane jest zaznajomienie sie z manualem do programu dialog, co ulatwi prawidlowa nawigacje i wprowadzanie danych do poszczegolnych okien dialogowych.   
+
