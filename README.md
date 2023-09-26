@@ -23,7 +23,7 @@ Do skryptu dołączony jest plik manuala.
 
 ---
 
-- Skrypt do poprawnego działania potrzebuje zainstalowanego programu dialog, odtwarzacza zdjęć eog oraz zainstalowanego odtwarzacza vlc wraz najnowszymi kodekami video.
+- Skrypt do poprawnego działania potrzebuje zainstalowanego programu 'dialog', odtwarzacza zdjęć eog oraz zainstalowanego odtwarzacza vlc wraz najnowszymi kodekami video.
 - Do wyszukiwania plików program korzysta z programu find wykorzystując wyrażenia regularne.
 
     Program testowany na dystrybucji Fedora.
