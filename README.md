@@ -11,9 +11,9 @@ Do komunikacji z użytkownikiem wykorzystywany jest interfejs semigraficzny. Ła
 Wyniki zostaną wyświetlone w postaci przewijanego menu. Użytkownik wybierze, interesujący go plik i wybierając opcje <code>OK</code> spowoduje uruchomienie odpowiedniego programu, który wyświetli lub odtworzy plik multimedialny wybrany przez użytkownika. Wybranie opcji <code>Anuluj</code> w dowolnym momencie spowoduje zakończenie wykonywania skryptu.
 
 Program może być uruchomiony z odpowiednimi opcjami:
-- -h	powoduje wyświetlenie pomocy – podstawowych informacji o skrypcie
-- -v	wyświetla informacje o numerze wersji programu
-- -a	wyświetla informacje o autorze
+- <code>-h</code>	powoduje wyświetlenie pomocy – podstawowych informacji o skrypcie
+- <code>-v</code>	wyświetla informacje o numerze wersji programu
+- <code>-a</code>	wyświetla informacje o autorze
 
 ---
 
