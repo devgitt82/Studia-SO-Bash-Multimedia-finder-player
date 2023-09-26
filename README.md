@@ -1,6 +1,6 @@
 # Multimedia File Finder and Player - skrypt BASH wraz z manualem.
 
-Skrypt BASH tworzący wyszukiwarkę plików multimedialnych oraz umożliwiający odtworzenie lub wyświetlenie wybranego pliku. Służąc do wyszukania wszystkich plików multimedialnych o wybranym przez użytkownika typie (video, dźwięk, foto) oraz wprowadzonej nazwie i lokalizacji. Po zakończonym wyszukiwaniu skrypt daje możliwość wyświetlenia lub odtworzenia wybranego przez użytkownika pliku. 
+Skrypt BASH tworzący wyszukiwarkę plików multimedialnych oraz umożliwiający odtworzenie lub wyświetlenie wybranego pliku. Służy do wyszukania wszystkich plików multimedialnych o wybranym przez użytkownika typie (video, dźwięk, foto) oraz wprowadzonej nazwie i lokalizacji. Po zakończonym wyszukiwaniu skrypt daje możliwość wyświetlenia lub odtworzenia wybranego przez użytkownika pliku. 
 
 Do komunikacji z użytkownikiem wykorzystywany jest interfejs semigraficzny. Łatwość użycia skryptu jest jego największą zaletą. Użytkownik nie musi znać skompilowanych poleceń, które musiałby wystukać na klawiaturze aby odnaleźć pożądany plik, wystarczy że uruchomi skrypt a ten następnie poprowadzi go za rękę i :
 - pozwoli mu wybrać z listy wyboru jakiego typu plik pragnie odnaleźć
