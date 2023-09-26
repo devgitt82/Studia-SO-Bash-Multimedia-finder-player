@@ -1,69 +1,29 @@
-# Taśmy.
+# Multimedia File Finder and Player - skrypt BASH wraz z manualem.
 
-Pewna firma produkuje taśmy z kolejnymi numerkami (dla urzędów pocztowych, banków itp.). Każda taśma jest podzielona na prostokąty z kolejnymi numerami, rozpoczynając od 0. Zaczął się nowy rok i jej klienci uzupełniają zapasy. Każdy z nich przysłał zamówienie w postaci pary a, b, gdzie a to numer początkowy a b to numer końcowy fragmentu taśmy, który jest mu potrzebny. Firma optymalizuje koszty więc chce zużyć jak najmniejszą liczbę taśm.
+Skrypt BASH tworzący wyszukiwarkę plików multimedialnych oraz umożliwiający odtworzenie lub wyświetlenie wybranego pliku. Służąc do wyszukania wszystkich plików multimedialnych o wybranym przez użytkownika typie (video, dźwięk, foto) oraz wprowadzonej nazwie i lokalizacji. Po zakończonym wyszukiwaniu skrypt daje możliwość wyświetlenia lub odtworzenia wybranego przez użytkownika pliku. 
 
-**Zadanie  z przedmiotu AiSD na drugim semestrze studiów, programowanie proceduralne bez STL.**
+Do komunikacji z użytkownikiem wykorzystywany jest interfejs semigraficzny. Łatwość użycia skryptu jest jego największą zaletą. Użytkownik nie musi znać skompilowanych poleceń, które musiałby wystukać na klawiaturze aby odnaleźć pożądany plik, wystarczy że uruchomi skrypt a ten następnie poprowadzi go za rękę i :
+- pozwoli mu wybrać z listy wyboru jakiego typu plik pragnie odnaleźć
+- pozwoli mu wybrać rozszerzenia plików jakimi jest zainteresowany
+- zapyta użytkownika o podanie nazwy pliku lub jej części
+- poprosi użytkownika o podanie ścieżki początkowej wyszukiwania (przeszukanie będzie się odbywać w głąb podanej ścieżki). Pozostawienie pustego pola będzie oznaczało przeszukanie całego drzewa plików od korzenia w głąb.
 
----
+Wyniki zostaną wyświetlone w postaci przewijanego menu. Użytkownik wybierze, interesujący go plik i wybierając opcje OK spowoduje uruchomienie odpowiedniego programu, który wyświetli/odtworzy plik multimedialny wybrany przez użytkownika. Wybranie opcji Anuluj w dowolnym momencie spowoduje zakończenie wykonywania skryptu.
 
-**Wejście**
----
-
-Na wejściu programu zostanie podana liczba zamówień (nie będzie większa niż 100000) oraz zamówienia w postaci par a b (każde w osobnej linii (0 ≤ a < b < 2000000000).
-
-**Wyjście**
----
-    
-Na wyjściu należy wypisać minimalną liczbę taśm potrzebnych do zrealizowania zamówienia oraz te zamówienia, których anulowanie zmniejszy liczbę wymaganych taśm. Zamówienia powinny być uporządkowane względem numeru początkowego, oraz numeru końcowego (w przypadku takich samych numerów początkowych).
-
-**Przykłady**
----
-
-
-**Wejście**
-<code>
-6
-0 10
-1 9
-2 8
-3 7
-4 6
-5 5
-</code>
-
-**Wyjście**
-<code>
-6
-0 10
-1 9
-2 8
-3 7
-4 6
-5 5
-</code>
+Program może być uruchomiony z odpowiednimi opcjami:
+- -h	powoduje wyświetlenie pomocy – podstawowych informacji o skrypcie
+- -v	wyświetla informacje o numerze wersji programu
+- -a	wyświetla informacje o autorze
 
 ---
 
-**Wejście**
-<code>
-10
-0 10
-11 12
-9 12
-8 13
-12 13
-1 2
-3 4
-5 6
-1 3
-4 6
-</code>
+Do skryptu dołączony jest plik manuala.
 
-**Wyjście**
-<code>
-4
-8 13
-9 12
-11 12
-12 13
-</code>
+**Zadanie  z przedmiotu Systemy Operacyjne na czwartym semestrze studiów**
+
+---
+
+- Skrypt do poprawnego działania potrzebuje zainstalowanego programu dialog, odtwarzacza zdjęć eog oraz zainstalowanego odtwarzacza vlc wraz najnowszymi kodekami video.
+- Do wyszukiwania plików program korzysta z programu find wykorzystując wyrażenia regularne.
+
+    Program testowany na dystrybucji Fedora.
