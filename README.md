@@ -2,7 +2,7 @@
 
 Skrypt BASH tworzący wyszukiwarkę plików multimedialnych oraz umożliwiający odtworzenie lub wyświetlenie wybranego pliku. Służy do wyszukania wszystkich plików multimedialnych o wybranym przez użytkownika typie (video, dźwięk, foto) oraz wprowadzonej nazwie i lokalizacji. Po zakończonym wyszukiwaniu skrypt daje możliwość wyświetlenia lub odtworzenia wybranego przez użytkownika pliku. 
 
-Do komunikacji z użytkownikiem wykorzystywany jest interfejs semigraficzny. Łatwość użycia skryptu jest jego największą zaletą. Użytkownik nie musi znać skompilowanych poleceń, które musiałby wystukać na klawiaturze aby odnaleźć pożądany plik, wystarczy że uruchomi skrypt a ten następnie poprowadzi go za rękę i :
+Do komunikacji z użytkownikiem wykorzystywany jest interfejs semigraficzny. Łatwość użycia skryptu jest jego największą zaletą. Użytkownik nie musi znać skompilowanych poleceń, które musiałby wystukać na klawiaturze aby odnaleźć pożądany plik. Wystarczy że uruchomi skrypt a ten następnie poprowadzi go za rękę:
 - pozwoli mu wybrać z listy wyboru jakiego typu plik pragnie odnaleźć
 - pozwoli mu wybrać rozszerzenia plików jakimi jest zainteresowany
 - zapyta użytkownika o podanie nazwy pliku lub jej części
